@@ -1,8 +1,12 @@
 const Logger = require('./utils/logger.js');
 const Config = require('./config.js');
+const { Canvas } = require('canvas-constructor');
+const { resolve, join } = require("path");
 const fs = require("fs");
 module.exports = {
   init: function(Client, bot, helpers) {
+    Canvas.registerFont(resolve(join(__dirname, "/fonts/Jaldi-Bold.ttf")), "Jaldi");
+    Canvas.registerFont(resolve(join(__dirname, "/fonts/Sequel.ttf")), "Sequel");
     fs.readdir("./cmds/", (err, files) => {
       Logger.log("Loading Commands");
       if(err) Logger.errorLog(err);

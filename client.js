@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 const Config = require('./config.js');
 const fs = require("fs");
-const sql = require("sqlite");
-sql.open("./devbot.sqlite");
+
 
 var express = require('express');
 
@@ -29,11 +28,11 @@ class Client {
     this.helpers = {
         sendEmbed: Functions.sendEmbed,
         sendSimpleEmbed: Functions.sendSimpleEmbed,
+        sendSimpleEmbedNT: Functions.sendSimpleEmbedNT,
         sendErrorEmbed: Functions.sendErrorEmbed,
         sendSuccessEmbed: Functions.sendSuccessEmbed,
         permsError: Functions.permsError,
         checkPerms: Functions.checkPerms,
-        sql: sql,
         global: global,
         getTime: Functions.getTime
     };

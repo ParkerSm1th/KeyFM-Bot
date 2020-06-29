@@ -33,7 +33,7 @@ ${message.content}\n`;
 
       let props = commandfile;
       var allowed = true;
-      if (props.help.disabled != null) {
+      if (props.help.disabled !== null && props.help.disabled !== undefined) {
         props.help.disabled.forEach((guild) => {
           if (message.author.id != 212630637000365035009) {
             if (guild == message.guild.id) {
@@ -43,9 +43,19 @@ ${message.content}\n`;
           }
         });
       }
+      if (props.help.enabled !== null && props.help.enabled !== undefined) {
+        allowed = false;
+        props.help.enabled.forEach((guild) => {
+          if (guild == message.guild.id) {
+            allowed = true;
+          }
+        });
+      }
       if (allowed) {
         commandfile.run(Client, bot, message, args, helpers);
         Logger.logCommand(message, cmd);
+      } else {
+        helpers.sendErrorEmbed(message.channel, "That command is disabled for this server.");
       }
     });
   } else {

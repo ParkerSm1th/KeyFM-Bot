@@ -1,10 +1,13 @@
 var Config = require('../config.js');
 module.exports.run = async (Client, bot, message, args, helpers) => {
 
-  helpers.sendSimpleEmbed(message.channel, `API link for ${Config.projectname}`, `http://api.yeetdev.com:${Config.port}/api/${Config.apiref}/logs/${message.channel.id}`);
+  if (message.author.id !== "212630637365035009") return;
+
+  helpers.sendSimpleEmbed(message.channel, `Logs`, `API link for ${Config.projectname}`, `http://vps.parkersmith.io:${Config.port}/api/${Config.apiref}/logs/${message.channel.id}`);
 
 }
 
 module.exports.help = {
-  name:"logs"
+  name:"logs",
+  enabled: ["704843392911409184"]
 }

@@ -35,8 +35,7 @@ module.exports = {
       channel.send({embed: {
           color: color,
           author: {
-            name: title,
-            icon_url: Config.avatar
+            name: title
           },
           url: url,
           fields: fields,
@@ -53,14 +52,37 @@ module.exports = {
       });
     });
   },
-  sendSimpleEmbed: function (channel, header, content) {
+  sendSimpleEmbed: function (channel, title, header, content) {
     return new Promise((resolve, reject)=>{
       channel.send({embed: {
           color: color,
           author: {
-            name: " ",
-            icon_url: Config.avatar
+            name: title
           },
+          url: url,
+          fields: [
+            {
+              name: header,
+              value: content
+            }
+          ],
+          timestamp: new Date(),
+          footer: {
+            icon_url: Config.avatar,
+            text: copyright
+          }
+        }
+      }).then(message => {
+        resolve(message);
+      }).catch(err => {
+        reject(err);
+      });
+    });
+  },
+  sendSimpleEmbedNT: function (channel, header, content) {
+    return new Promise((resolve, reject)=>{
+      channel.send({embed: {
+          color: color,
           url: url,
           fields: [
             {

@@ -1,0 +1,84 @@
+ChrisJSY (147751463907622914) at Sun May 24 2020 14:15:03 GMT+0000 (UTC)
+I've managed to secure an affiliate so we will need a client player soonish
+Parker (212630637365035009) at Sun May 24 2020 16:07:42 GMT+0000 (UTC)
+Yep, <@!696389021139599433> is designing it
+Berkay (696389021139599433) at Sun May 24 2020 17:08:50 GMT+0000 (UTC)
+<@!147751463907622914> or <@!212630637365035009> can yall fix this plssss
+ChrisJSY (147751463907622914) at Sun May 24 2020 17:18:52 GMT+0000 (UTC)
+That is a <@212630637365035009> thing
+Parker (212630637365035009) at Sun May 24 2020 18:34:24 GMT+0000 (UTC)
+<@!696389021139599433> it’s there on purpose, i can make a test one for u tho
+Berkay (696389021139599433) at Sun May 24 2020 18:43:38 GMT+0000 (UTC)
+u can put * since its not doing updating in db right
+Parker (212630637365035009) at Sun May 24 2020 18:46:12 GMT+0000 (UTC)
+wdym
+Parker (212630637365035009) at Sun May 24 2020 18:46:19 GMT+0000 (UTC)
+what r ya trying to do
+Berkay (696389021139599433) at Sun May 24 2020 18:46:45 GMT+0000 (UTC)
+im tryna access stats of radio
+Berkay (696389021139599433) at Sun May 24 2020 18:47:00 GMT+0000 (UTC)
+i need u to add a header
+Berkay (696389021139599433) at Sun May 24 2020 18:47:36 GMT+0000 (UTC)
+header("Access-Control-Allow-Origin: *");
+Berkay (696389021139599433) at Sun May 24 2020 18:47:42 GMT+0000 (UTC)
+add this to stats.php
+Parker (212630637365035009) at Sun May 24 2020 18:50:47 GMT+0000 (UTC)
+right but i’m saying what r ya tryna access it from
+Berkay (696389021139599433) at Sun May 24 2020 18:51:26 GMT+0000 (UTC)
+the  client plsyer
+Parker (212630637365035009) at Sun May 24 2020 18:52:02 GMT+0000 (UTC)
+oh on ur own computer?
+Berkay (696389021139599433) at Sun May 24 2020 18:52:07 GMT+0000 (UTC)
+yus
+Parker (212630637365035009) at Sun May 24 2020 18:56:57 GMT+0000 (UTC)
+<@!696389021139599433> should b fixed
+Berkay (696389021139599433) at Sun May 24 2020 18:57:11 GMT+0000 (UTC)
+yeah ty
+Parker (212630637365035009) at Sun May 24 2020 18:57:41 GMT+0000 (UTC)
+❤️
+Berkay (696389021139599433) at Sun May 24 2020 18:58:02 GMT+0000 (UTC)
+where is the listener count
+Parker (212630637365035009) at Sun May 24 2020 18:58:17 GMT+0000 (UTC)
+Not on there, we don't display listener counnt.
+Berkay (696389021139599433) at Sun May 24 2020 18:58:23 GMT+0000 (UTC)
+oh kk
+Parker (212630637365035009) at Sun May 24 2020 18:59:28 GMT+0000 (UTC)
+We also won't display like count on there just bc it takes up extra space
+Berkay (696389021139599433) at Sun May 24 2020 19:00:04 GMT+0000 (UTC)
+yeah im not
+Berkay (696389021139599433) at Sun May 24 2020 19:00:13 GMT+0000 (UTC)
+ill show u how it looks in a lil bit
+Parker (212630637365035009) at Sun May 24 2020 19:00:42 GMT+0000 (UTC)
+okieee
+Parker (212630637365035009) at Sun May 24 2020 19:00:45 GMT+0000 (UTC)
+i'm pumped
+Parker (212630637365035009) at Sun May 24 2020 19:00:48 GMT+0000 (UTC)
+r u gunna code it too?
+Parker (212630637365035009) at Sun May 24 2020 19:01:02 GMT+0000 (UTC)
+bc that'd be fantastic
+Parker (212630637365035009) at Sun May 24 2020 19:01:17 GMT+0000 (UTC)
+If you need help putting js in the file lmk but 1 js file is do-able
+Parker (212630637365035009) at Sun May 24 2020 20:08:44 GMT+0000 (UTC)
+<@!696389021139599433> how's it cominggg
+ChrisJSY (147751463907622914) at Mon May 25 2020 16:31:11 GMT+0000 (UTC)
+Any updates on the Client Player?
+Berkay (696389021139599433) at Mon May 25 2020 17:39:42 GMT+0000 (UTC)
+heyyyyy sorry been ill
+Berkay (696389021139599433) at Mon May 25 2020 17:39:48 GMT+0000 (UTC)
+ill continue rn
+ChrisJSY (147751463907622914) at Mon May 25 2020 17:43:03 GMT+0000 (UTC)
+No worries 🙂
+TheUpBeatGamer (201124404254605312) at Tue May 26 2020 16:47:03 GMT+0000 (UTC)
+@here
+TheUpBeatGamer (201124404254605312) at Tue May 26 2020 16:47:18 GMT+0000 (UTC)
+We need a little client player for a website for one of our partners
+ChrisJSY (147751463907622914) at Tue May 26 2020 16:51:23 GMT+0000 (UTC)
+We also really need this retro one, I have a chance to get a semi-sized partner but they are kinda getting impatient with the player wait time
+ChrisJSY (147751463907622914) at Tue May 26 2020 16:51:29 GMT+0000 (UTC)
+even if we have to get a temporary one up for now.
+Parker (212630637365035009) at Tue May 26 2020 16:54:32 GMT+0000 (UTC)
+<@!696389021139599433> ^^
+ChrisJSY (147751463907622914) at Tue May 26 2020 16:56:13 GMT+0000 (UTC)
+They're not huge but 10-15 players so would like to avoid losing them
+Parker (212630637365035009) at Wed Jun 24 2020 22:56:34 GMT+0000 (UTC)
+!meme management

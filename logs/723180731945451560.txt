@@ -1,0 +1,10 @@
+ChrisJSY (147751463907622914) at Thu Jun 18 2020 14:23:16 GMT+0000 (UTC)
+Hey @everyone , 
+
+Please use this chat to log any training you have done using the format below. This will help us to keep track of training better.
+
+```DJ Name:
+Operating System:
+Encoder setup? Y/N
+Know how to use software? Y/N
+Date & Time completed: ```
